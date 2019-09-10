@@ -2,7 +2,7 @@
   <div class="picture-details col-6" v-if="picture.title">
     <h5>Details:</h5>
     <h5>{{picture.title}}</h5>
-    <!-- <img :src="'https://api.nasa.gov/planetary/apod'" /> -->
+    <img :src="picture.url" />
     <h5>{{picture.date}}</h5>
     <h5>{{picture.explanation}}</h5>
   </div>
@@ -16,7 +16,7 @@ export default {
     return {};
   },
   computed: {
-    movie() {
+    picture() {
       return this.$store.state.activePicture;
     }
   },
