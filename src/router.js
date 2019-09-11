@@ -21,6 +21,14 @@ export default new Router({
         // @ts-ignore
         return import( /* webpackChunkName: "about" */ './views/About.vue')
       }
+    },
+    {
+      path: '/archive',
+      name: 'archive',
+      component: function () {
+        // @ts-ignore
+        return import('./views/Archive.vue')
+      }
     }
   ]
 })
