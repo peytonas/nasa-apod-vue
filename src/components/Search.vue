@@ -1,9 +1,11 @@
 <template>
   <div class="search col-12">
     <button class="button text-white" @click="getPictures()">
+      <!-- <span style="color: #fc3d20;"> -->
       <b>
         <i class="fas fa-rocket"></i>
       </b>
+      <!-- </span> -->
     </button>
   </div>
 </template>
@@ -29,16 +31,16 @@ export default {
 
 <style scoped>
 .button {
-  background-color: #fc3d20;
+  background-color: #0b3c91;
   display: inline-block;
   border: none;
   outline: none;
   font-size: 16px;
   border-radius: 8px;
-  box-shadow: 0 9px #ac1c05;
+  box-shadow: 0 9px #07275f;
 }
 .button:active {
-  box-shadow: 0 5px #ac1c05;
+  box-shadow: 0 5px #07275f;
   transform: translateY(4px);
 }
 ::-webkit-scrollbar {
