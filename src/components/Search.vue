@@ -1,23 +1,8 @@
 <template>
   <div class="search col-12">
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <button
-          class="btn btn-outline-warning"
-          type="button"
-          id="button-addon1"
-          @click="getPictures()"
-        >Search</button>
-      </div>
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Picture Title..."
-        aria-label="Example text with button addon"
-        aria-describedby="button-addon1"
-        v-model="query"
-      />
-    </div>
+    <button class="button text-white" @click="getPictures()">
+      <b>search</b>
+    </button>
   </div>
 </template>
 
@@ -43,4 +28,17 @@ export default {
 
 
 <style scoped>
+.button {
+  background-color: #fc3d20;
+  display: inline-block;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 9px #ac1c05;
+}
+.button:active {
+  box-shadow: 0 5px #ac1c05;
+  transform: translateY(4px);
+}
 </style>

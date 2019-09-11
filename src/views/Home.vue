@@ -9,8 +9,7 @@
       </div>
       <search />
     </div>
-    <div class="row">
-      <!-- <Pictures /> -->
+    <div>
       <PictureDetails />
     </div>
   </div>
@@ -30,7 +29,10 @@ export default {
 </script>
 
 <style scoped>
-img {
+.bg {
+  background-image: url("https://i.pinimg.com/originals/d0/99/fb/d099fbe1334992232264f479a516983e.jpg");
+}
+.img {
   height: 200px;
 }
 </style>
