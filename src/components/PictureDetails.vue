@@ -3,7 +3,6 @@
     class="picture-details col-12 justify-content-around spacing text-white"
     v-if="picture.title"
   >
-    <h5>Details:</h5>
     <h5>
       <b>{{picture.title}}</b>
     </h5>
