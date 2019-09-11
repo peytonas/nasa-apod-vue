@@ -15,7 +15,6 @@
   </div>
 </template>
 
-
 <script>
 export default {
   name: "pictureDetails",
@@ -31,7 +30,6 @@ export default {
   components: {}
 };
 </script>
-
 
 <style scoped>
 img {

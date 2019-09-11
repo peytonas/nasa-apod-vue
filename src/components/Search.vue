@@ -1,11 +1,12 @@
 <template>
   <div class="search col-12">
     <button class="button text-white" @click="getPictures()">
-      <b>search</b>
+      <b>
+        <i class="fas fa-rocket"></i>
+      </b>
     </button>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -25,7 +26,6 @@ export default {
   components: {}
 };
 </script>
-
 
 <style scoped>
 .button {
