@@ -41,4 +41,7 @@ export default {
   box-shadow: 0 5px #ac1c05;
   transform: translateY(4px);
 }
+::-webkit-scrollbar {
+  visibility: none;
+}
 </style>
