@@ -7,7 +7,7 @@
       </b>
       <!-- </span> -->
     </button>
-    <h5 class="text-white">___________________________</h5>
+    <!-- <h5 class="text-white">___________________________</h5> -->
   </div>
 </template>
 <script>
